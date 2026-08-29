@@ -703,6 +703,32 @@ section {
   color: var(--rose-deep);
 }
 
+/* -------------------- Figuras informativas (gráficos de proveedor) -------------------- */
+.info-figure {
+  margin-top: 20px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--line);
+  background: #fff;
+}
+.info-figure img {
+  width: 100%;
+  display: block;
+  max-height: 380px;
+  object-fit: contain;
+  padding: 28px;
+  box-sizing: border-box;
+  background: #fff;
+}
+.info-figure figcaption {
+  padding: 14px 20px;
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  background: var(--card);
+  text-align: center;
+}
+
 /* -------------------- Sobre mí: timeline -------------------- */
 .timeline {
   position: relative;
