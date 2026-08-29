@@ -649,10 +649,12 @@ section {
 .service-visual img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  padding: 28px;
+  box-sizing: border-box;
 }
 .service-visual.has-photo {
-  background: var(--card);
+  background: #fff;
 }
 .service-visual .tag {
   position: absolute;
@@ -710,16 +712,10 @@ section {
   overflow: hidden;
   box-shadow: var(--shadow-sm);
   border: 1px solid var(--line);
-  background: #fff;
 }
 .info-figure img {
   width: 100%;
   display: block;
-  max-height: 380px;
-  object-fit: contain;
-  padding: 28px;
-  box-sizing: border-box;
-  background: #fff;
 }
 .info-figure figcaption {
   padding: 14px 20px;
